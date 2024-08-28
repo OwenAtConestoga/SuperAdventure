@@ -137,7 +137,7 @@ namespace SuperAdventure
             // 
             this.cboWeapons.Font = new System.Drawing.Font("Microsoft Uighur", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboWeapons.FormattingEnabled = true;
-            this.cboWeapons.Location = new System.Drawing.Point(368, 559);
+            this.cboWeapons.Location = new System.Drawing.Point(369, 558);
             this.cboWeapons.Name = "cboWeapons";
             this.cboWeapons.Size = new System.Drawing.Size(121, 26);
             this.cboWeapons.TabIndex = 9;
@@ -169,6 +169,7 @@ namespace SuperAdventure
             this.btnUsePotion.Text = "Use";
             this.btnUsePotion.UseVisualStyleBackColor = true;
             this.btnUsePotion.Click += new System.EventHandler(this.btnUsePotion_Click);
+
             // 
             // btnNorth
             // 
@@ -243,6 +244,7 @@ namespace SuperAdventure
             this.dgvInventory.RowHeadersVisible = false;
             this.dgvInventory.Size = new System.Drawing.Size(312, 309);
             this.dgvInventory.TabIndex = 19;
+            this.dgvInventory.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvInventory_CellContentClick);
             // 
             // dgvQuests
             // 
@@ -259,7 +261,7 @@ namespace SuperAdventure
             this.dgvQuests.RowHeadersVisible = false;
             this.dgvQuests.Size = new System.Drawing.Size(312, 189);
             this.dgvQuests.TabIndex = 20;
-            this.dgvQuests.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
+            this.dgvQuests.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvQuests_CellContentClick);
             // 
             // SuperAdventure
             // 
