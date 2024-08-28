@@ -11,3 +11,16 @@ C:\Users\oweno\Documents\c\SuperAdventure\SuperAdventure\obj\Debug\SuperAdv.5A2A
 C:\Users\oweno\Documents\c\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.exe
 C:\Users\oweno\Documents\c\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.pdb
 C:\Users\oweno\Documents\c\SuperAdventure\SuperAdventure\obj\Debug\SuperAdventure.SuperAdventure.resources
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\bin\Debug\SuperAdventure.exe.config
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\bin\Debug\SuperAdventure.exe
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\bin\Debug\SuperAdventure.pdb
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\bin\Debug\Engine.dll
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\bin\Debug\Engine.pdb
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\obj\Debug\SuperAdventure.csproj.AssemblyReference.cache
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\obj\Debug\SuperAdventure.Properties.Resources.resources
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\obj\Debug\SuperAdventure.SuperAdventure.resources
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\obj\Debug\SuperAdventure.csproj.GenerateResource.cache
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\obj\Debug\SuperAdventure.csproj.CoreCompileInputs.cache
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\obj\Debug\SuperAdv.5A2A7CD7.Up2Date
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\obj\Debug\SuperAdventure.exe
+C:\Users\oweno\Documents\c\might have got it!~\SuperAdventure\obj\Debug\SuperAdventure.pdb

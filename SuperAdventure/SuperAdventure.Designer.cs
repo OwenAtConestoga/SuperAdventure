@@ -44,7 +44,7 @@ namespace SuperAdventure
             this.btnUseWeapon = new System.Windows.Forms.Button();
             this.btnUsePotion = new System.Windows.Forms.Button();
             this.btnNorth = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnEast = new System.Windows.Forms.Button();
             this.btnSouth = new System.Windows.Forms.Button();
             this.btnWest = new System.Windows.Forms.Button();
             this.rtbLocation = new System.Windows.Forms.RichTextBox();
@@ -158,6 +158,7 @@ namespace SuperAdventure
             this.btnUseWeapon.TabIndex = 11;
             this.btnUseWeapon.Text = "Use";
             this.btnUseWeapon.UseVisualStyleBackColor = true;
+            this.btnUseWeapon.Click += new System.EventHandler(this.btnUseWeapon_Click);
             // 
             // btnUsePotion
             // 
@@ -167,6 +168,7 @@ namespace SuperAdventure
             this.btnUsePotion.TabIndex = 12;
             this.btnUsePotion.Text = "Use";
             this.btnUsePotion.UseVisualStyleBackColor = true;
+            this.btnUsePotion.Click += new System.EventHandler(this.btnUsePotion_Click);
             // 
             // btnNorth
             // 
@@ -176,15 +178,17 @@ namespace SuperAdventure
             this.btnNorth.TabIndex = 13;
             this.btnNorth.Text = "North";
             this.btnNorth.UseVisualStyleBackColor = true;
+            this.btnNorth.Click += new System.EventHandler(this.btnNorth_Click);
             // 
-            // button1
+            // btnEast
             // 
-            this.button1.Location = new System.Drawing.Point(573, 457);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "East";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnEast.Location = new System.Drawing.Point(573, 457);
+            this.btnEast.Name = "btnEast";
+            this.btnEast.Size = new System.Drawing.Size(75, 23);
+            this.btnEast.TabIndex = 14;
+            this.btnEast.Text = "East";
+            this.btnEast.UseVisualStyleBackColor = true;
+            this.btnEast.Click += new System.EventHandler(this.btnEast_Click);
             // 
             // btnSouth
             // 
@@ -194,6 +198,7 @@ namespace SuperAdventure
             this.btnSouth.TabIndex = 15;
             this.btnSouth.Text = "South";
             this.btnSouth.UseVisualStyleBackColor = true;
+            this.btnSouth.Click += new System.EventHandler(this.btnSouth_Click);
             // 
             // btnWest
             // 
@@ -203,6 +208,7 @@ namespace SuperAdventure
             this.btnWest.TabIndex = 16;
             this.btnWest.Text = "West";
             this.btnWest.UseVisualStyleBackColor = true;
+            this.btnWest.Click += new System.EventHandler(this.btnWest_Click);
             // 
             // rtbLocation
             // 
@@ -266,7 +272,7 @@ namespace SuperAdventure
             this.Controls.Add(this.rtbLocation);
             this.Controls.Add(this.btnWest);
             this.Controls.Add(this.btnSouth);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEast);
             this.Controls.Add(this.btnNorth);
             this.Controls.Add(this.btnUsePotion);
             this.Controls.Add(this.btnUseWeapon);
@@ -284,6 +290,7 @@ namespace SuperAdventure
             this.Location = new System.Drawing.Point(18, 74);
             this.Name = "SuperAdventure";
             this.Text = "My Game";
+            this.Load += new System.EventHandler(this.SuperAdventure_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvInventory)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvQuests)).EndInit();
             this.ResumeLayout(false);
@@ -312,7 +319,7 @@ namespace SuperAdventure
         private System.Windows.Forms.Button btnUseWeapon;
         private System.Windows.Forms.Button btnUsePotion;
         private System.Windows.Forms.Button btnNorth;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEast;
         private System.Windows.Forms.Button btnSouth;
         private System.Windows.Forms.Button btnWest;
         private System.Windows.Forms.RichTextBox rtbLocation;

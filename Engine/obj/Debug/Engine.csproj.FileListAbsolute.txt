@@ -4,3 +4,9 @@ C:\Users\oweno\Documents\c\SuperAdventure\Engine\obj\Debug\Engine.csproj.Assembl
 C:\Users\oweno\Documents\c\SuperAdventure\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
 C:\Users\oweno\Documents\c\SuperAdventure\Engine\obj\Debug\Engine.dll
 C:\Users\oweno\Documents\c\SuperAdventure\Engine\obj\Debug\Engine.pdb
+C:\Users\oweno\Documents\c\might have got it!~\Engine\bin\Debug\Engine.dll
+C:\Users\oweno\Documents\c\might have got it!~\Engine\bin\Debug\Engine.pdb
+C:\Users\oweno\Documents\c\might have got it!~\Engine\obj\Debug\Engine.csproj.AssemblyReference.cache
+C:\Users\oweno\Documents\c\might have got it!~\Engine\obj\Debug\Engine.csproj.CoreCompileInputs.cache
+C:\Users\oweno\Documents\c\might have got it!~\Engine\obj\Debug\Engine.dll
+C:\Users\oweno\Documents\c\might have got it!~\Engine\obj\Debug\Engine.pdb
