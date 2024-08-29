@@ -401,5 +401,19 @@ namespace SuperAdventure
 
         }
 
+        private void cboWeapons_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cboPotions_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
